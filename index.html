@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price EDA Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #dbeafe;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+        }
+
+        h2 {
+            color: #172554;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        .dashboard {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            margin: 10px 10px 0 0;
+            border-radius: 7px;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #172554;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>House Price EDA Project</h1>
+    <p>Exploratory Data Analysis of the Ames Housing Dataset</p>
+</header>
+
+<div class="container">
+
+    <section class="card">
+        <h2>About the Project</h2>
+        <p>
+            This project explores the Ames Housing Dataset using Python.
+            The goal is to understand house prices, identify important
+            features, handle missing values, detect outliers and discover
+            relationships through data visualization.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Tools & Technologies</h2>
+        <ul>
+            <li>Python</li>
+            <li>Pandas and NumPy</li>
+            <li>Matplotlib and Seaborn</li>
+            <li>Google Colab</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Analysis Performed</h2>
+        <ul>
+            <li>Data inspection and cleaning</li>
+            <li>Missing value analysis</li>
+            <li>Descriptive statistics</li>
+            <li>Data distributions and visualizations</li>
+            <li>Correlation and covariance analysis</li>
+            <li>Outlier detection</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>EDA Dashboard</h2>
+        <img src="eda_dashboard.png"
+             alt="House Price EDA Dashboard"
+             class="dashboard">
+    </section>
+
+    <section class="card">
+        <h2>Project Notebook</h2>
+        <p>Explore the complete Python analysis in the Jupyter Notebook.</p>
+        <a class="button"
+           href="House_Price_EDA.ipynb"
+           target="_blank">View Notebook</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>House Price EDA Project | Python Data Analysis</p>
+</footer>
+
+</body>
+</html>
